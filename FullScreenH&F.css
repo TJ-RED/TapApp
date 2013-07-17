@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+    height : 80%;
+}
+#W_Create {
+    height : 0%;
+}
+#W_Create .ui-header {
+    height : 40px;
+}
+#W_Create .ui-content {
+    position : absolute;
+    top      : 0px;
+    right    : 0;
+    bottom   : 0px;
+    left     : 0;
+}
+#W_Create .tableBG
+{
+	position : absolute;
+    top      : 0px;
+    right    : 0;
+    bottom   : 0px;
+    left     : 0;
+	height   : 100%;
+	width    : 100%; 
+}
+#W_Create ::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+#W_Create ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+#W_Create ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+#W_Create .PadPasos
+{
+	height   :100%;
+	width    :100%;
+	overflow :scroll;
+}
+#W_Create .ui-footer {
+    position : absolute;
+    bottom   : 0;
+    left     : 0;
+    width    : 100%;
+    height   : 46px;
+}
