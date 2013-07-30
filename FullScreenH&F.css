@@ -28,23 +28,25 @@ html, body {
 	width    : 100%; 
 }
 #W_Create ::-webkit-scrollbar {
-    width: 12px;
+    width: 5px;
 }
  
 /* Track */
 #W_Create ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 2.5px rgba(0,0,0,0.1); 
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
  
 /* Handle */
 #W_Create ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: rgba(255,0,0,0.8); 
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(169,169,169,0.2); 
+    -webkit-box-shadow: inset 0 0 2.5px rgba(0,0,0,0.5); 
 }
+
+
 #W_Create .PadPasos
 {
 	height   :100%;
@@ -56,5 +58,5 @@ html, body {
     bottom   : 0;
     left     : 0;
     width    : 100%;
-    height   : 46px;
+    height   : 69px;
 }
